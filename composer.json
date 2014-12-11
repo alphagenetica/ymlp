@@ -7,7 +7,9 @@
   "authors": [
     {
       "name": "Drew Hammond",
-      "email": "drew@alphagenetica.com"
+      "email": "drew@alphagenetica.com",
+      "homepage": "https://drewhammond.me",
+      "role": "Developer"
     }
   ],
   "require": {
