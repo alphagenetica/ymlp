@@ -1,0 +1,16 @@
+{
+  "name": "alphagenetica/ymlp",
+  "description": "PHP Wrapper for the YMLP API",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Drew Hammond",
+      "email": "drew@alphagenetica.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*"
+  }
+}
