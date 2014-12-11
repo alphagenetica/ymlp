@@ -3,7 +3,7 @@
   "description": "PHP Wrapper for the YMLP API",
   "minimum-stability": "stable",
   "homepage": "https://github.com/alphagenetica/ymlp",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Drew Hammond",
@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "ext-curl": "*"
+    "guzzlehttp/guzzle": "~5.0"
   },
   "require-dev": {
     "phpunit/phpunit": "4.*"

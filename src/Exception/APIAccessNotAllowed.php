@@ -1,6 +1,6 @@
 <?php namespace Alphagenetica\YMLP\Exception;
 
-class APIAccessDisabled extends Exception
+class APIAccessNotAllowed extends Exception
 {
 
 }
