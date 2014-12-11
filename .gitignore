@@ -1,0 +1,11 @@
+build
+.DS_Store
+*.log
+
+# IDE Files
+.idea
+atlassian-ide-plugin.xml
+
+# Composer
+vendor
+composer.lock
