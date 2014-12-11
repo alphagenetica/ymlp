@@ -2,6 +2,7 @@
   "name": "alphagenetica/ymlp",
   "description": "PHP Wrapper for the YMLP API",
   "minimum-stability": "stable",
+  "homepage": "https://github.com/alphagenetica/ymlp",
   "license": "proprietary",
   "authors": [
     {
