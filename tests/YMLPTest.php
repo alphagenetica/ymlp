@@ -1,6 +1,6 @@
-<?php
+<?php namespace Alphagenetica\YMLP\Tests;
 
-class YMLPTest extends PHPUnit_Framework_TestCase
+class YMLPTest extends \PHPUnit_Framework_TestCase
 {
 
     protected $ymlp;
