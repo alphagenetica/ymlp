@@ -1,0 +1,26 @@
+language: php
+
+php:
+  - 5.4
+  - 5.5
+  - hhvm
+
+sudo: false
+
+# Cache vendor directories
+cache:
+  directories:
+    - vendor
+    - $HOME/.composer/cache
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: hhvm
+
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer install --prefer-dist --no-interaction
+
+script:
+  - phpunit --verbose
